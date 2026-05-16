@@ -6,10 +6,6 @@
 
 ### Terminal
 
-```
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-```
-
-```
+``` bash
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
