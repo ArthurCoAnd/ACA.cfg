@@ -18,7 +18,7 @@ def ACAcfg():
     dir_macos = "~/Library/Application Support/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg"
     dir_windows = "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg"
     
-    # Definir qual o sistema e pasta do jogo
+    # Definir sistema e pasta do jogo
     os_type = platform.system()
     if os_type == "Windows":
         print("Sistema: Windows")
